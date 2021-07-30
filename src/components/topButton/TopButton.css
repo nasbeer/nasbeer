@@ -1,0 +1,13 @@
+#topButton {
+  visibility: hidden;
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.5rem;
+  cursor: pointer;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  outline: none;
+  border-radius: 100%;
+  font-size: 26px;
+}
