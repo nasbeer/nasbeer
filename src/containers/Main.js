@@ -7,8 +7,6 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import { createBrowserHistory } from "history";
-import { Icon, InlineIcon } from "@iconify/react";
-import hackerrankIcon from "@iconify-icons/la/hackerrank";
 import ReactGA from "react-ga";
 export const history = createBrowserHistory();
 history.listen((location) => {
