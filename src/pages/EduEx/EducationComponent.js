@@ -24,11 +24,14 @@ class Education extends Component {
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
-                <h1 className="heading-text" style={{ color: theme.black }}>
-                  Career
+                <h1 className="heading-text" style={{ color: theme.text }}>
+                  My Career
                 </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Education and Certifcations
+                <h3
+                  className="heading-sub-text font-weight-500"
+                  style={{ color: theme.text }}
+                >
+                  - education &amp; certifcations -
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>

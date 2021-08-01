@@ -2,7 +2,11 @@
   height: 305;
   width: 440;
 }
-
+#logo {
+  -webkit-animation: zoomeffect 10s infinite;
+  -moz-animation: zoomeffect 10s infinite;
+  animation: zoomeffect 10s infinite;
+}
 @media (max-width: 767px) {
   #logo {
     position: absolute;

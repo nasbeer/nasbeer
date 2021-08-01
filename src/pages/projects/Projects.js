@@ -20,13 +20,13 @@ class Projects extends Component {
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
+              {/* <div className="projects-heading-img-div">
                 <ProjectsImg theme={theme} />
-              </div>
+              </div> */}
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
-                  style={{ color: theme.orange }}
+                  style={{ color: theme.dark }}
                 >
                   {projectsHeader.title}
                 </h1>
@@ -45,22 +45,22 @@ class Projects extends Component {
             {projectcards.list.map((proj) => {
               return (
                 <Card className="h-100">
-                  <Card.Img
+                  {/* <Card.Img
                     variant="top"
                     src={require(`../../assets/projects/${proj.img_path}`)}
-                  />
+                  /> */}
                   <Card.Body>
                     <Card.Title>
                       <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>
                         {proj.title}
                         <a
-                          style={{ color: theme.text }}
+                          style={{ color: theme.title }}
                           href={proj.link}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <i
-                            className={`fas fa-external-link-alt`}
+                            className={`fas fa-link`}
                             style={{
                               color: proj.linkcolor,
                               marginLeft: "10px",
@@ -68,7 +68,7 @@ class Projects extends Component {
                           ></i>
                         </a>
                         <a
-                          style={{ color: theme.text }}
+                          style={{ color: theme.title }}
                           href={proj.code}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -112,7 +112,7 @@ class Projects extends Component {
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/rohankokkula"
+          href="https://github.com/nasbeer"
           newTab={true}
           theme={theme}
         />

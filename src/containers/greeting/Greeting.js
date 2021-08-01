@@ -23,7 +23,10 @@ export default function Greeting(props) {
               <h1 className="greeting-sub" style={{ color: theme.black }}>
                 I'm Nasbeer Ahammed
               </h1>
-              <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
+              <h1
+                className="greeting-typewriter greeting-nas"
+                style={{ color: theme.blue }}
+              >
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
@@ -51,11 +54,21 @@ export default function Greeting(props) {
                 style={{ color: "black" }}
               >
                 <div className="entities">
-                  A <mark data-entity="noun">Data Scientist</mark> who thrives
-                  to <mark data-entity="verb">leverage Startups</mark> using
+                  A <mark data-entity="noun">Data Scientist</mark> who has
+                  succeeded in harnessing{" "}
+                  <mark data-entity="verb">Innovative ideas</mark> using
+                  AI-powered solutions with
+                  <mark data-entity="skill">full stack development</mark> and a
+                  blend <br />
+                  of
+                  <mark data-entity="freelance">
+                    UI/UX research and development
+                  </mark>
+                  {/* A <mark data-entity="noun">Data Scientist</mark> who thrives
+                  to <mark data-entity="verb">leverage Innovative Ideas</mark> using
                   AI-based solutions along with{" "}
-                  <mark data-entity="skill">Web Development</mark> and a blend
-                  of <mark data-entity="freelance">UI/UX Development</mark>
+                  <mark data-entity="skill">Full Stack Development</mark> and a blend
+                  of <mark data-entity="freelance">UI/UX research &amp; development</mark> */}
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />

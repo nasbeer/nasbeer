@@ -11,7 +11,7 @@ class Certifications extends Component {
       <div className="main" id="certs">
         <div className="certs-header-div">
           <Fade bottom duration={2000} distance="20px">
-            <h1 className="certs-header" style={{ color: theme.white }}>
+            <h1 className="certs-header" style={{ color: theme.text }}>
               Certifications &#38; Badges
             </h1>
           </Fade>

@@ -9,7 +9,7 @@ class CertificationCard extends Component {
     return (
       <Fade bottom duration={2000} distance="20px">
         <div className="cert-card">
-          <div className="content">
+          {/* <div className="content">
             <div className="content-overlay"></div>
             <div className="cert-header" style={{ backgroundColor: "#000" }}>
               <img
@@ -18,23 +18,27 @@ class CertificationCard extends Component {
                 alt={certificate.alt_name}
               />
             </div>
-          </div>
-          <div className="cert-body">
-            <h2 className="cert-body-title" style={{ color: theme.text }}>
-              {certificate.title}
-              <a
-                style={{ color: theme.text }}
-                href={certificate.certificate_link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+          </div> */}
+          <div className="cert-body p-3">
+            <a
+              style={{ color: theme.text }}
+              href={certificate.certificate_link}
+              target="_blank"
+              className="no-underline"
+              rel="noopener noreferrer"
+            >
+              <h2 className="cert-body-title" style={{ color: theme.text }}>
+                {certificate.title}
                 <i
-                  className={`fas fa-external-link-alt`}
+                  className={`fas fa-link`}
                   style={{ paddingLeft: "10px" }}
                 ></i>
-              </a>
-            </h2>
-            <h3 className="cert-body-subtitle" style={{ color: theme.white }}>
+              </h2>
+            </a>
+            <h3
+              className="cert-body-subtitle"
+              style={{ color: theme.secondaryText }}
+            >
               {certificate.subtitle}
             </h3>
           </div>

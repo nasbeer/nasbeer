@@ -9,7 +9,12 @@
   margin: 0px auto;
   margin-top: 1rem;
 }
-
+/* @media (min-width:700px) and (max-width:900px){
+  
+.greeting-nas{
+  font-size: 14px !important;
+}
+} */
 .gretting-main {
   width: 90%;
   padding: 20px 10px;

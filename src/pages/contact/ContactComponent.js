@@ -28,7 +28,7 @@ class Contact extends Component {
               <div className="address-heading-text-div">
                 <h1
                   className="contact-heading-text"
-                  style={{ color: theme.orange }}
+                  style={{ color: theme.black }}
                 >
                   {ContactData["title"]}
                 </h1>
@@ -55,7 +55,7 @@ class Contact extends Component {
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
-                  style={{ color: theme.blue }}
+                  style={{ color: theme.white }}
                 >
                   {addressSection["subtitle"]}
                 </p>
@@ -67,7 +67,7 @@ class Contact extends Component {
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
-                  style={{ color: theme.blue }}
+                  style={{ color: theme.white }}
                 >
                   {phoneSection["subtitle"]}
                 </p>

@@ -35,7 +35,9 @@ export default function Resume() {
                 {resumeright.right.map((head) => {
                   return (
                     <>
-                      <h3 className="resume-title">{head.title}</h3>
+                      <h3 className="resume-title" style={{ color: "#fff" }}>
+                        {head.title}
+                      </h3>
                       {head.data.map((info) => {
                         return (
                           <Resumecontent

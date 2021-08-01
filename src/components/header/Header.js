@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import { settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 // import { Navbar } from "react-bootstrap";
-import logo from "../../assets/logo/logo-01.png";
+import logo from "../../assets/logo/logo-01-old.png";
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
@@ -42,11 +42,11 @@ class Header extends Component {
                   to="/home"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: "black" }}
+                  style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Home
+                  am here for you :-)
                 </NavLink>
               </li>
               <li>
@@ -58,7 +58,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Career
+                  my career
                 </NavLink>
               </li>
               <li></li>
@@ -71,7 +71,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Projects
+                  what did i do ?
                 </NavLink>
               </li>
               <li>
@@ -83,7 +83,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Contact Me
+                  connect me
                 </NavLink>
               </li>
             </ul>
