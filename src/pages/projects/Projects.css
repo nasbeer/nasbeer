@@ -7,7 +7,9 @@
   margin-left: 5%;
   margin-right: 5%;
 }
-
+.hider {
+  display: none !important;
+}
 .projects-heading-div {
   display: flex;
 }
@@ -52,9 +54,9 @@
   background-clip: border-box;
   border-radius: 10px !important;
 }
-.card:hover {
+/* .card:hover {
   box-shadow: 0 0.25rem 0.25rem 0 rgb(255, 255, 255) !important;
-}
+} */
 .card > hr {
   margin-right: 0;
   margin-left: 0;

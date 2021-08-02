@@ -19,7 +19,8 @@ const greeting = {
   title: "Hello!",
   sub: "Nasbeer Ahammed",
   // logo_name: "Nasbeer Ahammed",
-  // resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1Sc_h5840nHwTD8CRQm1GATgHdL3r-PNz/view?usp=sharing",
 };
 
 // home logos
@@ -301,17 +302,40 @@ const projectcards = {
       code: "https://github.com/nasbeer/cowin-vaccination-slot-availability/",
       linkcolor: "white",
     },
-
     {
-      title: "Voice Gender Detection",
-      // img_path: "voice.gif",
+      title: "Youtube Video Downloader",
+      // img_path: "project-02.png",
       description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+        "Youtube downloader is an application to download recorded videos from YouTube using Python Django",
       tags: [
         {
-          lang: "ongoing",
+          lang: "django",
+          color: "green",
+        },
+        {
+          lang: "python",
           color: "red",
         },
+
+        {
+          lang: "docker",
+          color: "darkred",
+        },
+        {
+          lang: "heroku",
+          color: "#00072D",
+        },
+      ],
+      link: "https://ytdlnaz.herokuapp.com/",
+      code: "https://github.com/nasbeer/Youtube-Downloader",
+      linkcolor: "white",
+    },
+    {
+      title: "Trading Application - Naztrading",
+      // img_path: "voice.gif",
+      description:
+        "Python module to get stock data/cryptocurrencies from the Alpha Vantage API",
+      tags: [
         {
           lang: "python",
           color: "#004782",
@@ -321,12 +345,8 @@ const projectcards = {
           color: "#c47206",
         },
         {
-          lang: "tensorflow",
+          lang: "pyplot",
           color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
         },
       ],
       link: "",
@@ -365,41 +385,30 @@ const projectcards = {
     //   linkcolor: "white",
     // },
     {
-      title: "Semantic Search APP",
+      title: "Fake News Detector",
       // img_path: "project-03.png",
       description:
         "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
       tags: [
         {
-          lang: "ongoing",
+          lang: "anaconda",
+          color: "green",
+        },
+        {
+          lang: "jupyter",
           color: "red",
         },
         {
-          lang: "Streamlit",
+          lang: "notebook",
+          color: "purple",
+        },
+        {
+          lang: "Python",
           color: "#ff4b4b",
         },
       ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      // img_path: "project-02.png",
-      description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
-      tags: [
-        {
-          lang: "internal project",
-          color: "red",
-        },
-        {
-          lang: "youtube v3 api",
-          color: "red",
-        },
-      ],
-      link: "",
-      code: "",
+      //link: "https://github.com/nasbeer/fakenewsdetector",
+      code: "https://github.com/nasbeer/fakenewsdetector",
       linkcolor: "white",
     },
 
@@ -427,25 +436,24 @@ const projectcards = {
         },
       ],
       link: "https://nasbeer.pythoneverywhere.com/",
-      code: "https://github.com/nazbeerahammed/Newsearcher",
+      code: "https://github.com/nasbeer",
       linkcolor: "white",
     },
     {
-      title: "ActiWeight",
+      title: "Random Chat Application",
       // img_path: "acti.gif",
-      description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+      description: "Twilio SDK Starter Application for Node.js",
       tags: [
         {
-          lang: "python",
+          lang: "react",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "NodeJS",
           color: "#c47206",
         },
         {
-          lang: "Streamlit",
+          lang: "Twilio",
           color: "#ff4b4b",
         },
         {
@@ -453,8 +461,80 @@ const projectcards = {
           color: "#3c0095",
         },
       ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/nazbeerahammed/Actiweight",
+      link: "https://chatapp-tw.herokuapp.com/chat/",
+      code: "https://github.com/nasbeer/chatapp-twilio",
+      linkcolor: "white",
+    },
+    {
+      title: "Jubna New Advertiser & Publisher platform",
+      // img_path: "project-02.png",
+      description: "Created using JavaScript and Laravel 8",
+      tags: [
+        {
+          lang: "internal projects",
+          color: "blue",
+        },
+        {
+          lang: "javascript",
+          color: "#ff4b4b",
+        },
+        {
+          lang: "laravel 8",
+          color: "orange",
+        },
+      ],
+      link: "https://jubna.com",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Jubna New Website",
+      // img_path: "project-02.png",
+      description: "Developed new website for company",
+      tags: [
+        {
+          lang: "ongoing",
+          color: "red",
+        },
+        {
+          lang: "wordpress",
+          color: "blue",
+        },
+      ],
+      link: "https://website.jubna.me",
+      //code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Clinical Management System",
+      // img_path: "project-02.png",
+      description:
+        "The platform is used in a private clinic with inventory, HR, Patient-Doctor Records, Medicine records and all other related data.",
+      tags: [
+        {
+          lang: "django",
+          color: "green",
+        },
+        {
+          lang: "python",
+          color: "red",
+        },
+        {
+          lang: "MySQL",
+          color: "orange",
+        },
+        {
+          lang: "PyJWT",
+          color: "purple",
+        },
+        {
+          lang: "heroku",
+          color: "#00072D",
+        },
+      ],
+      link: "",
+      code:
+        "https://github.com/nasbeer/Clinic_Management_System_Project_Django",
       linkcolor: "white",
     },
   ],

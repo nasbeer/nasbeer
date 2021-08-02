@@ -20,7 +20,7 @@ class Education extends Component {
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
-              <div className="heading-img-div">
+              <div className="heading-img-div hider">
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
