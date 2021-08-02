@@ -75,6 +75,7 @@ export default function Greeting(props) {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="/contact" />
                 <Button
+                  className="hider"
                   text="View my resume"
                   newTab={true}
                   href={greeting.resumeLink}

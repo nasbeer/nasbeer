@@ -34,7 +34,9 @@
   margin-top: 10px;
   text-align: center;
 }
-
+.hider {
+  display: none !important;
+}
 .greeting-text {
   margin-top: 0px;
   font-size: 100px;
