@@ -21,7 +21,7 @@ export default function Greeting(props) {
               </h1> */}
               <br />
               <h1 className="greeting-sub" style={{ color: theme.text }}>
-                I'm Nasbeer Ahammed
+                I'm {greeting.sub}
               </h1>
               <h1
                 className="greeting-typewriter greeting-nas"
