@@ -1,5 +1,5 @@
 {
-  "name": "rohankokkula",
+  "name": "nasbeer",
   "background_color": "#ffffff",
   "display": "standalone",
   "icons": [
@@ -40,7 +40,7 @@
       "density": "4.0"
     }
   ],
-  "short_name": "rohankokkula",
+  "short_name": "nasbeer",
   "start_url": ".",
   "theme_color": "#000000"
 }
