@@ -272,6 +272,34 @@ const projectsHeader = {
 const projectcards = {
   list: [
     {
+      title: "GitHub Trending pages Clone",
+      // img_path: "project-06.png",
+      description:
+        "The goal of this project is to use ReactJS capabilities and its paradigms by creating a simple Github trending page clone.",
+      tags: [
+        {
+          lang: "react",
+          color: "#004782",
+        },
+        // {
+        //   lang: "TextBlob",
+        //   color: "#820032",
+        // },
+        {
+          lang: "Git API",
+          color: "#00a100",
+        },
+        {
+          lang: "Vercel",
+          color: "#ff4b4b",
+        },
+       
+      ],
+      link: "https://gittrends.vercel.app/ ",
+      code: "https://github.com/nasbeer/trending/",
+      linkcolor: "white",
+    },
+    {
       title: "CoWIN Slot Checker",
       // img_path: "project-06.png",
       description:
