@@ -331,6 +331,34 @@ const projectcards = {
       linkcolor: "white",
     },
     {
+      title: "Online Video Stream App",
+      // img_path: "project-06.png",
+      description:
+        "Created peer to peer video streaming application.",
+      tags: [
+        {
+          lang: "jquery",
+          color: "#004782",
+        },
+        // {
+        //   lang: "TextBlob",
+        //   color: "#820032",
+        // },
+        {
+          lang: "HTML",
+          color: "#00a100",
+        },
+        {
+          lang: "Vercel",
+          color: "#ff4b4b",
+        },
+       
+      ],
+      link: "https://nazstream.vercel.app/",
+      code: "https://github.com/nasbeer/videoapp",
+      linkcolor: "white",
+    },
+    {
       title: "Youtube Video Downloader",
       // img_path: "project-02.png",
       description:
