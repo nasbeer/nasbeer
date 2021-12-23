@@ -272,6 +272,34 @@ const projectsHeader = {
 const projectcards = {
   list: [
     {
+      title: "SearchNews",
+      // img_path: "project-06.png",
+      description:
+        "News Aggregator platform with Google Search Engine  ",
+      tags: [
+        {
+          lang: "laravel",
+          color: "#004782",
+        },
+        // {
+        //   lang: "TextBlob",
+        //   color: "#820032",
+        // },
+        {
+          lang: "Git API",
+          color: "#00a100",
+        },
+        {
+          lang: "Google",
+          color: "#ff4b4b",
+        },
+       
+      ],
+      link: "http://searchnews.live ",
+//       code: "https://github.com/nasbeer/trending/",
+      linkcolor: "white",
+    },
+    {
       title: "GitHub Trending pages Clone",
       // img_path: "project-06.png",
       description:
