@@ -30,13 +30,16 @@ export default function Greeting(props) {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(Python)")
+                      .typeString("I love Python")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("Full Stack Developer")
+                      .typeString("I can code in React")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("UI/UX Specialist")
+                     .typeString("I'm UIUX Specialist")
+                      .pauseFor(200)
+                      .deleteAll()
+                      .typeString("I love DS/ML")
                       .pauseFor(200)
                       .start();
                     // .typeString("IT Engineer")
