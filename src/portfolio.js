@@ -386,34 +386,34 @@ const projectcards = {
       code: "https://github.com/nasbeer/videoapp",
       linkcolor: "white",
     },
-    {
-      title: "Youtube Video Downloader",
-      // img_path: "project-02.png",
-      description:
-        "Youtube downloader is an application to download recorded videos from YouTube using Python Django",
-      tags: [
-        {
-          lang: "django",
-          color: "green",
-        },
-        {
-          lang: "python",
-          color: "red",
-        },
+//     {
+//       title: "Youtube Video Downloader",
+//       // img_path: "project-02.png",
+//       description:
+//         "Youtube downloader is an application to download recorded videos from YouTube using Python Django",
+//       tags: [
+//         {
+//           lang: "django",
+//           color: "green",
+//         },
+//         {
+//           lang: "python",
+//           color: "red",
+//         },
 
-        {
-          lang: "docker",
-          color: "darkred",
-        },
-        {
-          lang: "heroku",
-          color: "#00072D",
-        },
-      ],
-      link: "https://ytdlnaz.herokuapp.com/",
-      code: "https://github.com/nasbeer/Youtube-Downloader",
-      linkcolor: "white",
-    },
+//         {
+//           lang: "docker",
+//           color: "darkred",
+//         },
+//         {
+//           lang: "heroku",
+//           color: "#00072D",
+//         },
+//       ],
+//       link: "https://ytdlnaz.herokuapp.com/",
+//       code: "https://github.com/nasbeer/Youtube-Downloader",
+//       linkcolor: "white",
+//     },
     {
       title: "Trading Application - Naztrading",
       // img_path: "voice.gif",
@@ -496,33 +496,33 @@ const projectcards = {
       linkcolor: "white",
     },
 
-    {
-      title: "Newsrefined",
-      // img_path: "news.gif",
-      description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "newsapi",
-          color: "#303030",
-        },
-        {
-          lang: "django",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "pythoneverywhere",
-          color: "#051c61",
-        },
-      ],
-      link: "https://nasbeer.pythoneverywhere.com/",
-      code: "https://github.com/nasbeer",
-      linkcolor: "white",
-    },
+//     {
+//       title: "Newsrefined",
+//       // img_path: "news.gif",
+//       description:
+//         "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+//       tags: [
+//         {
+//           lang: "python",
+//           color: "#004782",
+//         },
+//         {
+//           lang: "newsapi",
+//           color: "#303030",
+//         },
+//         {
+//           lang: "django",
+//           color: "#ff4b4b",
+//         },
+//         {
+//           lang: "pythoneverywhere",
+//           color: "#051c61",
+//         },
+//       ],
+//       link: "https://nasbeer.pythoneverywhere.com/",
+//       code: "https://github.com/nasbeer",
+//       linkcolor: "white",
+//     },
     {
       title: "Random Chat Application",
       // img_path: "acti.gif",
@@ -585,7 +585,7 @@ const projectcards = {
           color: "blue",
         },
       ],
-      link: "https://website.jubna.me",
+      link: "https://jubna.com",
       //code: "",
       linkcolor: "white",
     },
@@ -629,8 +629,8 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Project Manager, UIUX Specialist & Data Scientist",
-        subtitle: "DigiMena FZE (Jubna.com)",
+        title: "Front End Team Lead & Data Scientist",
+        subtitle: "DigiMena FZE",
         date: "April 2020 - present",
         content: [
           "Revamping the present Jubna platform with new UI",
@@ -676,7 +676,7 @@ const resumeleft = {
           "Payroll software, a school management system, and a clinical management system",
           "Had hands-on with Data Visualization techniques using ChartJS, HighChart, D3.JS",
           "Developed 100s of websites, apps and ui elements for clients",
-          // "Ranked 85 out of 1500+ students for overall performance.",
+         
         ],
       },
     ],
