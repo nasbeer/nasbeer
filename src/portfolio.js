@@ -295,7 +295,63 @@ const projectcards = {
         },
        
       ],
-      link: "http://searchnews.live ",
+      link: "http://searchnews.live",
+//       code: "https://github.com/nasbeer/trending/",
+      linkcolor: "white",
+    },
+    {
+      title: "Jubna Advertiser Platform",
+      // img_path: "project-06.png",
+      description:
+        "Admin Platform for managing Native Ads and campaigns for Advertsiers",
+      tags: [
+        {
+          lang: "laravel",
+          color: "#004782",
+        },
+        {
+          lang: "React",
+          color: "#820032",
+        },
+        {
+          lang: "APIs",
+          color: "#00a100",
+        },
+        {
+          lang: "Crypto",
+          color: "#ff4b4b",
+        },
+       
+      ],
+      link: "https://publisher.jubna.me",
+//       code: "https://github.com/nasbeer/trending/",
+      linkcolor: "white",
+    },
+    {
+      title: "Jubna Publisher Platform",
+      // img_path: "project-06.png",
+      description:
+        "Admin Platform for managing Native Widgets and Trends for Publisher",
+      tags: [
+        {
+          lang: "laravel",
+          color: "#004782",
+        },
+        {
+          lang: "React",
+          color: "#820032",
+        },
+        {
+          lang: "APIs",
+          color: "#00a100",
+        },
+        {
+          lang: "Trends",
+          color: "#ff4b4b",
+        },
+       
+      ],
+      link: "https://advertiser.jubna.me",
 //       code: "https://github.com/nasbeer/trending/",
       linkcolor: "white",
     },
