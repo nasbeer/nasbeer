@@ -841,6 +841,15 @@ const resumeright = {
 const certifications = {
   certifications: [
     {
+      title: "Scrum Master",
+      subtitle: "PMI",
+      //logo_path: "tabana-01.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/4727a4dbeb1ff30664387c7481b0a2a83201de0d6f43a85a8cc5ac00265963fc?trk=share_certificate",
+      alt_name: "Scrum Master Nasbeer",
+      color_code: "#000000",
+    },
+    {
       title: "Data Science Foundation",
       subtitle: "IBM",
       //logo_path: "tabana-01.png",
