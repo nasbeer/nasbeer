@@ -791,14 +791,14 @@ const resumeright = {
         //     "Designed Logo, Brochures, Flyers and other illustrations",
         //   ],
         // },
-         {
-          title: "Coworking Space",
-          subtitle: "theofficekochi.com",
-          content: [
-            "Developed a website and provided services on SEO and UI Elements for Coworking Space provider ",
-            "Provided hosting and security supports with Social media marketing."
-          ],
-        },
+        //  {
+        //   title: "Coworking Space",
+        //   subtitle: "theofficekochi.com",
+        //   content: [
+        //     "Developed a website and provided services on SEO and UI Elements for Coworking Space provider ",
+        //     "Provided hosting and security supports with Social media marketing."
+        //   ],
+        // },
         {
           title: "eLearning Platform",
           subtitle: "edugraff.com",
