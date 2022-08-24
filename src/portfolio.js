@@ -20,7 +20,7 @@ const greeting = {
   sub: "Nasbeer Ahammed",
   // logo_name: "Nasbeer Ahammed",
   resumeLink:
-    "https://drive.google.com/file/d/1Sc_h5840nHwTD8CRQm1GATgHdL3r-PNz/view?usp=sharing",
+    "https://drive.google.com/file/d/1rD8JlZSFWkXaUVkI6gRtftYMp1N1B8PR/view?usp=sharing",
 };
 
 // home logos
@@ -768,14 +768,7 @@ const resumeright = {
     //         "#113/5064 in CV-NLP Hackathon by HackerEarth",
     //       ],
     //     },
-    //     {
-    //       title: "Achievements",
-    //       content: [
-    //         "Designing Team Head at ACM-VIT",
-    //         "5⭐ Gold Badges for Python & Problem Solving at HackerRank ",
-    //         "Tableau Analyst & Consumer Badge by Tableau Official",
-    //       ],
-    //     },
+    //     
     //   ],
     // },
     {
@@ -790,22 +783,22 @@ const resumeright = {
             "Developed many softwares for Newspaper agencies, Healthcare clinics, IT Service offices etc",
           ],
         },
-        {
-          title: "Educational Consultancy",
-          subtitle: "redbudinternational.com",
-          content: [
-            "Created and hosted a website for educational consultancy in Study Abroad & PR Domain",
-            "Designed Logo, Brochures, Flyers and other illustrations",
-          ],
-        },
         // {
-        //   title: "Coworking Space",
-        //   subtitle: "theofficekochi.com",
+        //   title: "Educational Consultancy",
+        //   subtitle: "redbudinternational.com",
         //   content: [
-        //     "Developed a website and provided services on SEO and UI Elements for Coworking Space provider ",
-        //     "Provided hosting and security supports with Social media marketing."
+        //     "Created and hosted a website for educational consultancy in Study Abroad & PR Domain",
+        //     "Designed Logo, Brochures, Flyers and other illustrations",
         //   ],
         // },
+         {
+          title: "Coworking Space",
+          subtitle: "theofficekochi.com",
+          content: [
+            "Developed a website and provided services on SEO and UI Elements for Coworking Space provider ",
+            "Provided hosting and security supports with Social media marketing."
+          ],
+        },
         {
           title: "eLearning Platform",
           subtitle: "edugraff.com",
@@ -813,14 +806,6 @@ const resumeright = {
             "Developed an eLearning platform for High School students and teachers",
             "Provided hosting and security supports with Search Engine Optimization.",
             "Integrated Whiteboard facility for teachers using NodeJS",
-          ],
-        },
-        {
-          title: "Fitout Company",
-          subtitle: "fitoutdubai.co",
-          content: [
-            "Developed a website and provided services on SEO and UI Elements for Fit out company in Dubai ",
-            "Provided hosting and security supports with Social media marketing.",
           ],
         },
         {
@@ -832,6 +817,23 @@ const resumeright = {
             "Provided hosting and security supports with Search Engine Optimization.",
           ],
         },
+        {
+          title: "Fitout Company",
+          subtitle: "fitoutdubai.co",
+          content: [
+            "Developed a website and provided services on SEO and UI Elements for Fit out company in Dubai ",
+            "Provided hosting and security supports with Social media marketing.",
+          ],
+        },
+        {
+          title: "DDesign UAE Company",
+          subtitle: "ddesignuae.com",
+          content: [
+            "Developed a website and provided services on SEO and UI Elements for Fit out company in Umm Al Quiam ",
+            "Provided hosting and security supports with Social media marketing.",
+          ],
+        },
+        
       ],
     },
   ],
