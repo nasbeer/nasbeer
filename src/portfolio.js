@@ -499,7 +499,7 @@ const projectcards = {
 //       linkcolor: "white",
 //     },
     {
-      title: "Trading Application - Naztrading",
+      title: "Trading Application",
       // img_path: "voice.gif",
       description:
         "Python module to get stock data/cryptocurrencies from the Alpha Vantage API",
