@@ -295,7 +295,35 @@ const projectcards = {
         },
        
       ],
-      link: "http://searchnews.live",
+      link: "https://searchnews.live",
+//       code: "https://github.com/nasbeer/trending/",
+      linkcolor: "white",
+    },
+     {
+      title: "Coinmedia24",
+      // img_path: "project-06.png",
+      description:
+        "News platform for cryptocurrency",
+      tags: [
+        {
+          lang: "wordpress",
+          color: "#004782",
+        },
+        // {
+        //   lang: "TextBlob",
+        //   color: "#820032",
+        // },
+        {
+          lang: "Coin API",
+          color: "#00a100",
+        },
+//         {
+//           lang: "Google",
+//           color: "#ff4b4b",
+//         },
+       
+      ],
+      link: "https://coinmedia24.com",
 //       code: "https://github.com/nasbeer/trending/",
       linkcolor: "white",
     },
