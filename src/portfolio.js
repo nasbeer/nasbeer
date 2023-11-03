@@ -32,7 +32,7 @@ const competitiveSites = {
       style: {
         color: "black",
       },
-      profileLink: "https://github.com/nasbeer",
+      profileLink: "https://github.com/nazbeer",
     },
     {
       siteName: "HackerRank",
