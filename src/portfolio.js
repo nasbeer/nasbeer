@@ -470,7 +470,7 @@ const projectcards = {
           color: "#3c0095",
         },
       ],
-     // link: "https://cowinslotchecker.herokuapp.com/ ",
+      link: "https://cowin-vaccination-slot-availability.onrender.com/",
       code: "https://github.com/nasbeer/cowin-vaccination-slot-availability/",
       linkcolor: "white",
     },
