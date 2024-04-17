@@ -300,21 +300,21 @@ const projectcards = {
       linkcolor: "white",
     },
      {
-      title: "Coinmedia24",
+      title: "SureView",
       // img_path: "project-06.png",
       description:
-        "News platform for cryptocurrency",
+        "Native Video Ads Platform",
       tags: [
         {
-          lang: "wordpress",
+          lang: "Laravel",
           color: "#004782",
         },
-        // {
-        //   lang: "TextBlob",
-        //   color: "#820032",
-        // },
         {
-          lang: "Coin API",
+          lang: "React",
+          color: "#820032",
+        },
+        {
+          lang: "REST API",
           color: "#00a100",
         },
 //         {
@@ -323,7 +323,39 @@ const projectcards = {
 //         },
        
       ],
-      link: "https://coinmedia24.com",
+      link: "https://sureview.tv",
+//       code: "https://github.com/nasbeer/trending/",
+      linkcolor: "white",
+    },
+     {
+      title: "BizTrackPro",
+      // img_path: "project-06.png",
+      description:
+        "A Django web app and Flutter app for efficient shop management, sales, inventory, and finance.",
+      tags: [
+        {
+          lang: "Django",
+          color: "#004782",
+        },
+         {
+          lang: "Flutter",
+          color: "#004782",
+        },
+        {
+          lang: "React",
+          color: "#820032",
+        },
+        {
+          lang: "REST API",
+          color: "#00a100",
+        },
+//         {
+//           lang: "Google",
+//           color: "#ff4b4b",
+//         },
+       
+      ],
+      link: "https://ezshopapp.onrender.com/",
 //       code: "https://github.com/nasbeer/trending/",
       linkcolor: "white",
     },
@@ -470,34 +502,38 @@ const projectcards = {
       code: "https://github.com/nasbeer/videoapp",
       linkcolor: "white",
     },
-//     {
-//       title: "Youtube Video Downloader",
-//       // img_path: "project-02.png",
-//       description:
-//         "Youtube downloader is an application to download recorded videos from YouTube using Python Django",
-//       tags: [
-//         {
-//           lang: "django",
-//           color: "green",
-//         },
-//         {
-//           lang: "python",
-//           color: "red",
-//         },
+    {
+      title: "Petology - Vet Management System",
+      // img_path: "project-02.png",
+      description:
+        "MERN Stack Application for Vet Management System",
+      tags: [
+        {
+          lang: "React",
+          color: "green",
+        },
+        {
+          lang: "Mongo",
+          color: "red",
+        },
 
-//         {
-//           lang: "docker",
-//           color: "darkred",
-//         },
-//         {
-//           lang: "heroku",
-//           color: "#00072D",
-//         },
-//       ],
-//       link: "https://ytdlnaz.herokuapp.com/",
-//       code: "https://github.com/nasbeer/Youtube-Downloader",
-//       linkcolor: "white",
-//     },
+        {
+          lang: "Node",
+          color: "darkred",
+        },
+        {
+          lang: "Express",
+          color: "#00072D",
+        },
+         {
+          lang: "AWS",
+          color: "orange",
+        },
+      ],
+    //  link: "https://ytdlnaz.herokuapp.com/",
+   //   code: "https://github.com/nasbeer/Youtube-Downloader",
+      linkcolor: "white",
+    },
     {
       title: "Trading Application",
       // img_path: "voice.gif",
@@ -521,37 +557,26 @@ const projectcards = {
       code: "",
       linkcolor: "white",
     },
-    // {
-    //   title: "NeuralViz",
-    //   // img_path: "neural.gif",
-    //   description:
-    //     "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
-    //   tags: [
-    //     {
-    //       lang: "python",
-    //       color: "#004782",
-    //     },
-    //     {
-    //       lang: "numpy",
-    //       color: "#8700b0",
-    //     },
-    //     {
-    //       lang: "matplotlib",
-    //       color: "#c47206",
-    //     },
-    //     {
-    //       lang: "Streamlit",
-    //       color: "#ff4b4b",
-    //     },
-    //     {
-    //       lang: "Heroku",
-    //       color: "#3c0095",
-    //     },
-    //   ],
-    //   link: "https://neuralviz.herokuapp.com/",
-    //   code: "https://github.com/nazbeerahammed/neuralviz",
-    //   linkcolor: "white",
-    // },
+    {
+      title: "Gulf Way Marketing",
+      // img_path: "neural.gif",
+      description:
+        "Developed almost 10+ websites",
+      tags: [
+        {
+          lang: "Wordpress",
+          color: "blue",
+        },
+        {
+          lang: "AWS",
+          color: "orange",
+        },
+       
+      ],
+      link: "https://testing.gulfwaymarketing.com/",
+     // code: "https://github.com/nazbeerahammed/neuralviz",
+      linkcolor: "white",
+    },
     {
       title: "Fake News Detector",
       // img_path: "project-03.png",
