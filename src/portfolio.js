@@ -326,7 +326,7 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "Jubna Native Ads Platform",
+      title: "Jubna Native Ads",
       // img_path: "project-06.png",
       description:
         "Admin Platform for managing Native Ads and campaigns for Advertsiers, Publishers, Support Panel and Back Office",
