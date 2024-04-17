@@ -360,10 +360,10 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "Jubna Advertiser Platform",
+      title: "Jubna Native Ads Platform",
       // img_path: "project-06.png",
       description:
-        "Admin Platform for managing Native Ads and campaigns for Advertsiers",
+        "Admin Platform for managing Native Ads and campaigns for Advertsiers, Publishers, Support Panel and Back Office",
       tags: [
         {
           lang: "laravel",
@@ -383,38 +383,38 @@ const projectcards = {
         },
        
       ],
-      link: "https://publisher.jubna.me",
+      link: "https://adv-launch.jubna.me",
 //       code: "https://github.com/nasbeer/trending/",
       linkcolor: "white",
     },
-    {
-      title: "Jubna Publisher Platform",
-      // img_path: "project-06.png",
-      description:
-        "Admin Platform for managing Native Widgets and Trends for Publisher",
-      tags: [
-        {
-          lang: "laravel",
-          color: "#004782",
-        },
-        {
-          lang: "React",
-          color: "#820032",
-        },
-        {
-          lang: "APIs",
-          color: "#00a100",
-        },
-        {
-          lang: "Trends",
-          color: "#ff4b4b",
-        },
+//     {
+//       title: "Jubna Publisher Platform",
+//       // img_path: "project-06.png",
+//       description:
+//         "Admin Platform for managing Native Widgets and Trends for Publisher",
+//       tags: [
+//         {
+//           lang: "laravel",
+//           color: "#004782",
+//         },
+//         {
+//           lang: "React",
+//           color: "#820032",
+//         },
+//         {
+//           lang: "APIs",
+//           color: "#00a100",
+//         },
+//         {
+//           lang: "Trends",
+//           color: "#ff4b4b",
+//         },
        
-      ],
-      link: "https://advertiser.jubna.me",
-//       code: "https://github.com/nasbeer/trending/",
-      linkcolor: "white",
-    },
+//       ],
+//       link: "https://advertiser.jubna.me",
+// //       code: "https://github.com/nasbeer/trending/",
+//       linkcolor: "white",
+//     },
     {
       title: "GitHub Trending pages Clone",
       // img_path: "project-06.png",
