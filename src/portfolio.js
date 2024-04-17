@@ -353,6 +353,38 @@ const projectcards = {
 //       code: "https://github.com/nasbeer/trending/",
       linkcolor: "white",
     },
+    {
+      title: "Gulf Way Limo",
+      // img_path: "project-06.png",
+      description:
+        "Website and Dashboard for Gulfway Limo",
+      tags: [
+        {
+          lang: "NextJS",
+          color: "#004782",
+        },
+        {
+          lang: "MongoDB",
+          color: "#820032",
+        },
+        {
+          lang: "AWS",
+          color: "#00a100",
+        },
+        {
+          lang: "AntD",
+          color: "#ff4b4b",
+        },
+         {
+          lang: "Figma",
+          color: "violet",
+        },
+       
+      ],
+      link: "https://www.figma.com/proto/qUpnzb3FzXuoLtnBwV7eL1/GWLimo?type=design&node-id=0-4436&t=vcN1xrjbzuVu11Tv-1&scaling=min-zoom&page-id=0%3A1&mode=design",
+//       code: "https://github.com/nasbeer/trending/",
+      linkcolor: "white",
+    },
 
     {
       title: "CoWIN Slot Checker",
