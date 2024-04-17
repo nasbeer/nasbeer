@@ -271,34 +271,34 @@ const projectsHeader = {
 // colors:[primary,secondary,success,danger,warning,info,light,dark,]
 const projectcards = {
   list: [
-    {
-      title: "SearchNews",
-      // img_path: "project-06.png",
-      description:
-        "News Aggregator platform with Google Search Engine  ",
-      tags: [
-        {
-          lang: "laravel",
-          color: "#004782",
-        },
-        // {
-        //   lang: "TextBlob",
-        //   color: "#820032",
-        // },
-        {
-          lang: "Git API",
-          color: "#00a100",
-        },
-        {
-          lang: "Google",
-          color: "#ff4b4b",
-        },
+//     {
+//       title: "SearchNews",
+//       // img_path: "project-06.png",
+//       description:
+//         "News Aggregator platform with Google Search Engine  ",
+//       tags: [
+//         {
+//           lang: "laravel",
+//           color: "#004782",
+//         },
+//         // {
+//         //   lang: "TextBlob",
+//         //   color: "#820032",
+//         // },
+//         {
+//           lang: "Git API",
+//           color: "#00a100",
+//         },
+//         {
+//           lang: "Google",
+//           color: "#ff4b4b",
+//         },
        
-      ],
-      link: "https://searchnews.live",
-//       code: "https://github.com/nasbeer/trending/",
-      linkcolor: "white",
-    },
+//       ],
+//       link: "https://searchnews.live",
+// //       code: "https://github.com/nasbeer/trending/",
+//       linkcolor: "white",
+//     },
      {
       title: "SureView",
       // img_path: "project-06.png",
