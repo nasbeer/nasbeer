@@ -470,7 +470,7 @@ const projectcards = {
           color: "#3c0095",
         },
       ],
-      link: "https://cowinslotchecker.herokuapp.com/ ",
+     // link: "https://cowinslotchecker.herokuapp.com/ ",
       code: "https://github.com/nasbeer/cowin-vaccination-slot-availability/",
       linkcolor: "white",
     },
@@ -534,29 +534,7 @@ const projectcards = {
    //   code: "https://github.com/nasbeer/Youtube-Downloader",
       linkcolor: "white",
     },
-    {
-      title: "Trading Application",
-      // img_path: "voice.gif",
-      description:
-        "Python module to get stock data/cryptocurrencies from the Alpha Vantage API",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "pyplot",
-          color: "#4257f5",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
+   
     {
       title: "Gulf Way Marketing",
       // img_path: "neural.gif",
@@ -632,63 +610,42 @@ const projectcards = {
 //       code: "https://github.com/nasbeer",
 //       linkcolor: "white",
 //     },
-    {
-      title: "Random Chat Application",
-      // img_path: "acti.gif",
-      description: "Twilio SDK Starter Application for Node.js",
-      tags: [
-        {
-          lang: "react",
-          color: "#004782",
-        },
-        {
-          lang: "NodeJS",
-          color: "#c47206",
-        },
-        {
-          lang: "Twilio",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://chatapp-tw.herokuapp.com/chat/",
-      code: "https://github.com/nasbeer/chatapp-twilio",
-      linkcolor: "white",
-    },
-    {
-      title: "Jubna New Advertiser & Publisher platform",
-      // img_path: "project-02.png",
-      description: "Created using JavaScript and Laravel 8",
-      tags: [
-        {
-          lang: "internal projects",
-          color: "blue",
-        },
-        {
-          lang: "javascript",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "laravel 8",
-          color: "orange",
-        },
-      ],
-      link: "https://jubna.com",
-      code: "",
-      linkcolor: "white",
-    },
+    // {
+    //   title: "Random Chat Application",
+    //   // img_path: "acti.gif",
+    //   description: "Twilio SDK Starter Application for Node.js",
+    //   tags: [
+    //     {
+    //       lang: "react",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "NodeJS",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Twilio",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Heroku",
+    //       color: "#3c0095",
+    //     },
+    //   ],
+    //   link: "https://chatapp-tw.herokuapp.com/chat/",
+    //   code: "https://github.com/nasbeer/chatapp-twilio",
+    //   linkcolor: "white",
+    // },
+   
     {
       title: "Jubna New Website",
       // img_path: "project-02.png",
-      description: "Developed new website for company",
+      description: "Developed new website for company with different languages",
       tags: [
-        {
-          lang: "ongoing",
-          color: "red",
-        },
+        // {
+        //   lang: "ongoing",
+        //   color: "red",
+        // },
         {
           lang: "wordpress",
           color: "blue",
@@ -702,7 +659,7 @@ const projectcards = {
       title: "Clinical Management System",
       // img_path: "project-02.png",
       description:
-        "The platform is used in a private clinic with inventory, HR, Patient-Doctor Records, Medicine records.",
+        "Platform with inventory, HR, Patient-Doctor Records, Medicine records.",
       tags: [
         {
           lang: "django",
