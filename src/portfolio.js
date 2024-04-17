@@ -271,34 +271,6 @@ const projectsHeader = {
 // colors:[primary,secondary,success,danger,warning,info,light,dark,]
 const projectcards = {
   list: [
-//     {
-//       title: "SearchNews",
-//       // img_path: "project-06.png",
-//       description:
-//         "News Aggregator platform with Google Search Engine  ",
-//       tags: [
-//         {
-//           lang: "laravel",
-//           color: "#004782",
-//         },
-//         // {
-//         //   lang: "TextBlob",
-//         //   color: "#820032",
-//         // },
-//         {
-//           lang: "Git API",
-//           color: "#00a100",
-//         },
-//         {
-//           lang: "Google",
-//           color: "#ff4b4b",
-//         },
-       
-//       ],
-//       link: "https://searchnews.live",
-// //       code: "https://github.com/nasbeer/trending/",
-//       linkcolor: "white",
-//     },
      {
       title: "SureView",
       // img_path: "project-06.png",
@@ -317,10 +289,7 @@ const projectcards = {
           lang: "REST API",
           color: "#00a100",
         },
-//         {
-//           lang: "Google",
-//           color: "#ff4b4b",
-//         },
+
        
       ],
       link: "https://sureview.tv",
@@ -349,10 +318,7 @@ const projectcards = {
           lang: "REST API",
           color: "#00a100",
         },
-//         {
-//           lang: "Google",
-//           color: "#ff4b4b",
-//         },
+
        
       ],
       link: "https://ezshopapp.onrender.com/",
@@ -387,62 +353,7 @@ const projectcards = {
 //       code: "https://github.com/nasbeer/trending/",
       linkcolor: "white",
     },
-//     {
-//       title: "Jubna Publisher Platform",
-//       // img_path: "project-06.png",
-//       description:
-//         "Admin Platform for managing Native Widgets and Trends for Publisher",
-//       tags: [
-//         {
-//           lang: "laravel",
-//           color: "#004782",
-//         },
-//         {
-//           lang: "React",
-//           color: "#820032",
-//         },
-//         {
-//           lang: "APIs",
-//           color: "#00a100",
-//         },
-//         {
-//           lang: "Trends",
-//           color: "#ff4b4b",
-//         },
-       
-//       ],
-//       link: "https://advertiser.jubna.me",
-// //       code: "https://github.com/nasbeer/trending/",
-//       linkcolor: "white",
-//     },
-    {
-      title: "GitHub Trending pages Clone",
-      // img_path: "project-06.png",
-      description:
-        "The goal of this project is to use ReactJS capabilities and its paradigms by creating a simple Github trending page clone.",
-      tags: [
-        {
-          lang: "react",
-          color: "#004782",
-        },
-        // {
-        //   lang: "TextBlob",
-        //   color: "#820032",
-        // },
-        {
-          lang: "Git API",
-          color: "#00a100",
-        },
-        {
-          lang: "Vercel",
-          color: "#ff4b4b",
-        },
-       
-      ],
-      link: "https://gittrends.vercel.app/ ",
-      code: "https://github.com/nasbeer/trending/",
-      linkcolor: "white",
-    },
+
     {
       title: "CoWIN Slot Checker",
       // img_path: "project-06.png",
@@ -481,15 +392,11 @@ const projectcards = {
         "Created peer to peer video streaming application.",
       tags: [
         {
-          lang: "jquery",
+          lang: "CSS",
           color: "#004782",
         },
-        // {
-        //   lang: "TextBlob",
-        //   color: "#820032",
-        // },
         {
-          lang: "HTML",
+          lang: "React",
           color: "#00a100",
         },
         {
@@ -510,11 +417,11 @@ const projectcards = {
       tags: [
         {
           lang: "React",
-          color: "green",
+          color: "blue",
         },
         {
-          lang: "Mongo",
-          color: "red",
+          lang: "MongoDB",
+          color: "green",
         },
 
         {
@@ -583,33 +490,22 @@ const projectcards = {
       linkcolor: "white",
     },
 
-//     {
-//       title: "Newsrefined",
-//       // img_path: "news.gif",
-//       description:
-//         "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-//       tags: [
-//         {
-//           lang: "python",
-//           color: "#004782",
-//         },
-//         {
-//           lang: "newsapi",
-//           color: "#303030",
-//         },
-//         {
-//           lang: "django",
-//           color: "#ff4b4b",
-//         },
-//         {
-//           lang: "pythoneverywhere",
-//           color: "#051c61",
-//         },
-//       ],
-//       link: "https://nasbeer.pythoneverywhere.com/",
-//       code: "https://github.com/nasbeer",
-//       linkcolor: "white",
-//     },
+    {
+      title: "Gulfway Marketing Staging",
+      // img_path: "news.gif",
+      description:
+        "Website for Gulfway Marketing",
+      tags: [
+        {
+          lang: "wordpress",
+          color: "#004782",
+        },
+       
+      ],
+      link: "https://staging.gulfwaymarketing.com/",
+      //code: "https://github.com/nasbeer",
+      linkcolor: "white",
+    },
     // {
     //   title: "Random Chat Application",
     //   // img_path: "acti.gif",
