@@ -702,7 +702,7 @@ const projectcards = {
       title: "Clinical Management System",
       // img_path: "project-02.png",
       description:
-        "The platform is used in a private clinic with inventory, HR, Patient-Doctor Records, Medicine records and all other related data.",
+        "The platform is used in a private clinic with inventory, HR, Patient-Doctor Records, Medicine records.",
       tags: [
         {
           lang: "django",
