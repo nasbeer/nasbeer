@@ -271,6 +271,24 @@ const projectsHeader = {
 // colors:[primary,secondary,success,danger,warning,info,light,dark,]
 const projectcards = {
   list: [
+    {title:"Astraea AI",
+    description:"Astraea is a FAANG-grade, production-ready AI platform with streaming LLM responses, RAG, Redis memory, and a full-stack architecture.",
+     tags: [
+        {
+          lang: "NextJS",
+          color: "#004782",
+        },
+        {
+          lang: "RAG, LLM",
+          color: "#820032",
+        },
+        {
+          lang: "Python",
+          color: "#00a100",
+        },],
+     link: "https://astraea-ai.vercel.app/",
+     linkcolor: "white",
+    },
      {
       title: "SureView",
       // img_path: "project-06.png",
