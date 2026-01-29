@@ -916,7 +916,7 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/nasbeer",
+    link: "https://github.com/nazbeer",
     // iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-brands fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "orange", // Reference https://simpleicons.org/?q=github
