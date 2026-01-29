@@ -286,7 +286,7 @@ const projectcards = {
           lang: "Python",
           color: "#00a100",
         },],
-     link: "https://astraea-ai.vercel.app/",
+     link: "https://aiastraea.com/",
      linkcolor: "white",
     },
      {
