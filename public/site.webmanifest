@@ -1,0 +1,97 @@
+{
+  "name": "Nasbeer Ahammed Portfolio",
+  "short_name": "Nasbeer",
+  "description": "Senior Full Stack Engineer & AI Specialist - Portfolio of Nasbeer Ahammed",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#040404",
+  "theme_color": "#ff6b35",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "72x72",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "96x96",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "128x128",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "144x144",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "152x152",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "384x384",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["portfolio", "developer", "business"],
+  "screenshots": [
+    {
+      "src": "/images/hero-portrait.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Nasbeer Ahammed Portfolio Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "Learn more about Nasbeer Ahammed",
+      "url": "/#about",
+      "icons": [{ "src": "/images/hero-portrait.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "View my projects",
+      "url": "/#projects",
+      "icons": [{ "src": "/images/project-ai.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch",
+      "url": "/#contact",
+      "icons": [{ "src": "/images/hero-portrait.jpg", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

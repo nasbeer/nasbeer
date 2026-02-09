@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Main Page -->
+  <url>
+    <loc>https://nasbeer.com</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://nasbeer.com/images/hero-portrait.jpg</image:loc>
+      <image:title>Nasbeer Ahammed - Senior Full Stack Engineer</image:title>
+      <image:caption>Professional portrait of Nasbeer Ahammed</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- About Section -->
+  <url>
+    <loc>https://nasbeer.com/#about</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Projects Section -->
+  <url>
+    <loc>https://nasbeer.com/#projects</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasbeer.com/images/project-ai.jpg</image:loc>
+      <image:title>AI Projects by Nasbeer Ahammed</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nasbeer.com/images/project-business.jpg</image:loc>
+      <image:title>Business Applications</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nasbeer.com/images/project-video.jpg</image:loc>
+      <image:title>Video Streaming Projects</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Experience Section -->
+  <url>
+    <loc>https://nasbeer.com/#experience</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Certifications Section -->
+  <url>
+    <loc>https://nasbeer.com/#certifications</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contact Section -->
+  <url>
+    <loc>https://nasbeer.com/#contact</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- External Profiles -->
+  <url>
+    <loc>https://github.com/nazbeer</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.linkedin.com/in/nazbeerahammed/</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
