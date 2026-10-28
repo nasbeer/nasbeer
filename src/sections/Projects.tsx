@@ -20,7 +20,7 @@ const projects = [
     tags: ['Python', 'React', 'React Native', 'Next.js', 'PostgreSQL', 'Redis', 'AWS', 'RAG', 'LLMs', 'Agent AI'],
     demoUrl: 'https://aiastraea.com',
     githubUrl: null,
-    featured: true,
+    featured: false,
   },
   {
     id: 3,
