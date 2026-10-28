@@ -91,9 +91,7 @@ export default function About() {
               WHO AM <span className="gradient-text">I?</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Senior Full Stack & AI Engineer with extensive expertise in building scalable 
-              web and mobile applications. Proven ability in cloud computing, database design, 
-              and leading end-to-end product development for enterprise platforms and high-growth startups.
+              I build AI applications and full-stack products end to end — React and Next on the front, Node and Python on the back, React Native for mobile, and the observability to keep it all honest. Ten years of shipping things that hold up when real users show up.
             </p>
           </header>
 
