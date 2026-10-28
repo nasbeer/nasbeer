@@ -77,7 +77,7 @@ export default function Hero() {
                   isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                 }`}
               >
-                Senior Full Stack Engineer <span className="text-primary">&</span> AI Specialist
+                Shipping Mobile Apps <span className="text-primary">&</span> with AI Inside
               </p>
 
               {/* Description */}
