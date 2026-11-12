@@ -7,7 +7,7 @@ const projects = [
     title: 'PromptForger',
     description: 'Turn client briefs into landing pages and campaign assets with PromptForger. Reuse brand kits, create product ads, publish supported websites with connected enquiry forms, and collect inquiries in your lead inbox.',
     image: '/images/project-ai.jpg',
-    tags: ['React Native', 'Node', 'Typescript', 'PostgreSQL', 'Redis', 'AWS', 'Android', 'macOS', 'iOS'],
+    tags: ['React Native', 'React', 'Vitest', 'Node', 'Typescript', 'PostgreSQL', 'Redis', 'AWS', 'Android', 'macOS', 'iOS', 'Supabase'],
     demoUrl: 'https://promptforger.in/',
     githubUrl: null,
     featured: true,
@@ -111,6 +111,16 @@ const projects = [
     demoUrl: null,
     githubUrl: null,
     featured: false,
+  },
+    {
+    id: 12,
+    title: 'Outdated - Wellness App',
+    description: 'Outdated.me is an AI-powered emotional wellness and self-growth app designed to help you heal, rebuild confidence, and move forward, one day at a time.',
+    image: '/images/project-ai.jpg',
+    tags: ['Node', 'React Native', 'TypeScript', 'PostgreSQL', 'Docker', 'Kubernetes', 'MongoDB', 'React', 'Redis'],
+    demoUrl: null,
+    githubUrl: null,
+    featured: true,
   },
 ];
 
