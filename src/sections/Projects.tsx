@@ -4,6 +4,16 @@ import { ExternalLink, Github, ArrowRight, FolderGit2 } from 'lucide-react';
 const projects = [
   {
     id: 1,
+    title: 'PromptForger',
+    description: 'Turn client briefs into landing pages and campaign assets with PromptForger. Reuse brand kits, create product ads, publish supported websites with connected enquiry forms, and collect inquiries in your lead inbox.',
+    image: '/images/project-ai.jpg',
+    tags: ['React Native', 'Node', 'Typescript', 'PostgreSQL', 'Redis', 'AWS', 'Android', 'macOS', 'iOS'],
+    demoUrl: 'https://promptforger.in/',
+    githubUrl: null,
+    featured: true,
+  },
+  {
+    id: 2,
     title: 'Dis Chem App',
     description: 'Dis-Chem Pharmacies is a major South African retail pharmacy chain specializing in health, beauty, wellness, and prescriptions.',
     image: '/images/project-health.jpg',
@@ -13,7 +23,7 @@ const projects = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: 'AI Astraea',
     description: 'AI-driven platform leveraging Retrieval-Augmented Generation and autonomous agents for intelligent workflows, chat systems, and knowledge automation across web and mobile platforms.',
     image: '/images/project-ai.jpg',
@@ -23,7 +33,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Compass Portal - Core42 AI',
     description: 'Enterprise AI SaaS platform for managing AI models, subscriptions, API usage, and billing. Implemented secure authentication, usage analytics, API playgrounds, and scalable microservices architecture.',
     image: '/images/project-business.jpg',
@@ -33,7 +43,7 @@ const projects = [
     featured: true,
   },
   {
-    id: 4,
+    id: 5,
     title: 'Compass AI Chat',
     description: 'Real-time AI chat interface integrated with Core42 models, supporting secure authentication, streaming responses, and usage tracking for enterprise users.',
     image: '/images/project-ai.jpg',
@@ -43,7 +53,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 5,
+    id: 6,
     title: 'Loop360',
     description: 'Social intelligence mobile application focused on claims verification and digital trust. Features claims management, real-time chat, AI-powered chat, and fake post detection using intelligent content analysis.',
     image: '/images/project-marketing.jpg',
@@ -53,7 +63,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 6,
+    id: 7,
     title: 'Jubna Advertising Platform',
     description: 'Large-scale native advertising and monetization platform with real-time analytics, campaign management, payment integrations, and blockchain-enabled transparency for ad operations.',
     image: '/images/project-marketing.jpg',
@@ -63,7 +73,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: 'SureView TV',
     description: 'Digital media and streaming analytics platform providing content performance insights, monetization tools, and secure data pipelines with scalable cloud infrastructure.',
     image: '/images/project-video.jpg',
@@ -73,7 +83,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: 'Gulfway Delivery App',
     description: 'React Native delivery management app with real-time order tracking, driver route optimization using Google Maps SDK, push notifications, and live delivery status updates through WebSockets.',
     image: '/images/project-business.jpg',
@@ -83,7 +93,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 9,
+    id: 10,
     title: 'Veterinary Management System',
     description: 'Complete MEAN Stack veterinary management system including appointment scheduling, medical record management, and user roles. Delivered beta version in 2.5 months.',
     image: '/images/project-health.jpg',
@@ -93,7 +103,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 10,
+    id: 11,
     title: 'Trenchbound',
     description: 'Gaming application which helps gamers to experience the mariana trench depth and its hidden gems',
     image: '/images/project-business.jpg',
