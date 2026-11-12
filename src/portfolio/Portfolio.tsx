@@ -218,7 +218,6 @@ function HeroCore() {
       io.observe(hero);
 
       const v = new T.Vector3();
-      const mobileMq = window.matchMedia('(max-width: 900px)');
       const t0 = performance.now();
       let raf = 0;
       const frame = (now: number) => {
@@ -239,31 +238,18 @@ function HeroCore() {
         ambient.position.x = REDUCED ? 0 : Math.sin(t * 0.05) * 3;
         chipGroup.rotation.y = -spin * 0.7 + mx * 0.6; chipGroup.rotation.x = my * 0.4;
         chipGroup.updateMatrixWorld();
-        const flat = mobileMq.matches;
         anchors.forEach((a, i) => {
           const el = chipRefs.current[i];
           if (!el) return;
-          let depth: number;
-          let scale: number;
-          let alpha: number;
-          if (flat) {
-            // phones: labels orbit flat around the portrait so they never cover it
-            const ang = (i / anchors.length) * Math.PI * 2 + (REDUCED ? 0 : t * 0.12);
-            v.set(Math.cos(ang) * 4.75, Math.sin(ang) * 4.35, 0);
-            depth = 1; scale = 1; alpha = 1;
-          } else {
-            v.copy(a).applyMatrix4(chipGroup.matrixWorld);
-            depth = v.z;
-            scale = 0.8 + ((depth + 4.4) / 8.8) * 0.35;
-            alpha = Math.max(0, Math.min(1, (depth + 1.2) / 2.4));
-          }
+          v.copy(a).applyMatrix4(chipGroup.matrixWorld);
+          const depth = v.z;
           v.project(cam);
           const sx = (v.x * 0.5 + 0.5) * w - sl;
           const sy = (-v.y * 0.5 + 0.5) * h - st;
-          el.style.transform = `translate(${sx}px,${sy}px) translate(-50%,-50%) scale(${scale})`;
-          el.style.opacity = alpha.toFixed(2);
-          el.style.visibility = alpha < 0.04 ? 'hidden' : 'visible';
-          el.style.zIndex = depth > -0.5 ? '4' : '1';
+          const front = depth > -0.5;
+          el.style.transform = `translate(${sx}px,${sy}px) translate(-50%,-50%) scale(${0.8 + ((depth + 4.4) / 8.8) * 0.35})`;
+          el.style.opacity = front ? '1' : '0.28';
+          el.style.zIndex = front ? '4' : '1';
         });
         renderer.render(scene, cam);
       };
