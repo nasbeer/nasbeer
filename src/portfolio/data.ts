@@ -27,7 +27,22 @@ export const TECH = ['React', 'React Native', 'Next.js', 'Node.js', 'Python', 'D
 
 export const FEATURED: Project[] = [
   { n: 'PromptForger', m: 'PF', h: 205, d: 'Turn client briefs into landing pages and campaign assets with PromptForger. Reuse brand kits, create product ads, publish supported…', tags: ['React Native', 'React', 'Vitest', 'Node', 'Typescript', 'PostgreSQL'], url: 'https://promptforger.in' },
-  { n: 'Dis Chem App', m: 'DC', h: 190, d: 'Dis-Chem Pharmacies is a major South African retail pharmacy chain specializing in health, beauty, wellness, and prescriptions.', tags: ['React Native', 'Node', 'Typescript', 'PostgreSQL', 'Redis', 'AWS'], url: 'https://www.dischem.co.za' },
+  {
+  n: 'SpotPhysio',
+  m: 'SP',
+  h: 220,
+  d: 'SpotPhysio is a physiotherapy booking platform that connects patients with physiotherapists and clinics, making it easy to discover professionals, book appointments, and manage physiotherapy sessions.',
+  tags: [
+    'React',
+    'React Native',
+    'PostgreSQL',
+    'Docker',
+    'Node',
+    'TypeScript',
+    'Supabase'
+  ],
+  url: 'https://spotphysio.com'
+  },{ n: 'Dis Chem App', m: 'DC', h: 190, d: 'Dis-Chem Pharmacies is a major South African retail pharmacy chain specializing in health, beauty, wellness, and prescriptions.', tags: ['React Native', 'Node', 'Typescript', 'PostgreSQL', 'Redis', 'AWS'], url: 'https://www.dischem.co.za' },
   { n: 'Compass Portal - Core42 AI', m: 'C42', h: 160, d: 'Enterprise AI SaaS platform for managing AI models, subscriptions, API usage, and billing. Implemented secure authentication, usage analytics, AP…', tags: ['Python', 'FastAPI', 'React', 'TypeScript', 'PostgreSQL', 'Docker'], url: 'https://core42.ai' },
   { n: 'Outdated - Wellness App', m: 'OD', h: 262, d: 'Outdated.me is an AI-powered emotional wellness and self-growth app designed to help you heal, rebuild confidence, and move forward, one day…', tags: ['Node', 'React Native', 'TypeScript', 'PostgreSQL', 'Docker', 'Kubernetes'], url: 'https://outdated.me' },
 ];
